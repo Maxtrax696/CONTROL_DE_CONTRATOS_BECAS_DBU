@@ -1,0 +1,33 @@
+# Entornos virtuales y variables de entorno
+venv/
+env/
+.env
+
+# Caché de Python y binarios
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de compilación (PyInstaller)
+build/
+dist/
+*.spec
+
+# Configuraciones de Streamlit (Secretos locales)
+.streamlit/secrets.toml
+
+# Bases de datos, respaldos y seguridad (Evita fuga de datos sensibles de estudiantes)
+data/backup/*
+data/duplicados/*
+data/*.xlsx
+data/*.xls
+data/*.csv
+
+# Excepciones para mantener la estructura de carpetas en Git
+!data/backup/.gitkeep
+!data/duplicados/.gitkeep
+!data/security/.gitkeep
+
+# Archivos temporales del sistema operativo
+.DS_Store
+Thumbs.db
