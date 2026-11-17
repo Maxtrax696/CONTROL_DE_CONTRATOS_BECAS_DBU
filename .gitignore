@@ -18,8 +18,8 @@ dist/
 .streamlit/secrets.toml
 
 # Bases de datos, respaldos y seguridad (Evita fuga de datos sensibles de estudiantes)
-data/backup/*
-data/duplicados/*
+data/backup/*.xlsx
+data/duplicados/*.xlsx
 data/security/*.key
 data/*.xlsx
 data/*.xls
