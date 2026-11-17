@@ -56,7 +56,6 @@ El código obedece a un patrón cliente-servidor interno, estructurado de la sig
 
 - **Lectura:** Rastrea dinámicamente el directorio `/data` y permite al operador interactuar con múltiples archivos `.xlsx` sin configuraciones de código rígidas.
 - **Escritura:** Utiliza `pandas.ExcelWriter` con motor `openpyxl` en modo anexado (`mode="a"`). Altera exclusivamente la pestaña específica procesada sin cargar, corromper ni sobrescribir el resto de las hojas del documento activo. Controla bloqueos del sistema operativo (`[WinError 5]`).
-    
 
 ### 2. Operaciones Estructurales (CRUD)
 
@@ -79,7 +78,7 @@ El sistema ha sido estructurado para empaquetarse en un único archivo ejecutabl
 4. El proceso generará el archivo `Control_de_Contratos_Becas_DBU.exe` en la carpeta `/dist`. Dicho ejecutable debe ubicarse obligatoriamente en la misma ruta que la carpeta `/data` para operar sobre las bases físicas.
 
 ## Stack Tecnológico y Dependencias
-- **Motor Lógico:** Python 3.x
+- **Motor Lógico:** Python 3.x - Probado en Python 3.14
 - **Interfaz de Usuario:** Streamlit (Manejo de `st.session_state`, `@st.dialog`)
 - **Procesamiento de Datos:** Pandas
 - **Motores I/O Excel:** Openpyxl, Xlrd
