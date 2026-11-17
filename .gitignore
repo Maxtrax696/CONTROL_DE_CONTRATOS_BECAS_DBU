@@ -12,7 +12,10 @@ __pycache__/
 build/
 dist/
 *.spec
+<<<<<<< HEAD
 *.exe
+=======
+>>>>>>> 9be2433dd95145d28317e4ad2724d1b44587ea0d
 
 # Configuraciones de Streamlit (Secretos locales)
 .streamlit/secrets.toml
@@ -20,7 +23,10 @@ dist/
 # Bases de datos, respaldos y seguridad (Evita fuga de datos sensibles de estudiantes)
 data/backup/*
 data/duplicados/*
+<<<<<<< HEAD
 data/security/*.key
+=======
+>>>>>>> 9be2433dd95145d28317e4ad2724d1b44587ea0d
 data/*.xlsx
 data/*.xls
 data/*.csv
