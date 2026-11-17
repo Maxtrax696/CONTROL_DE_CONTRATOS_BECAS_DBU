@@ -20,7 +20,6 @@ dist/
 # Bases de datos, respaldos y seguridad (Evita fuga de datos sensibles de estudiantes)
 data/backup/*.xlsx
 data/duplicados/*.xlsx
-data/security/*.key
 data/*.xlsx
 data/*.xls
 data/*.csv
